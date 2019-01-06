@@ -50,7 +50,7 @@ function addToDo(text) {
 
 function onSubmit(event) {
   event.preventDefault();
-  //[question_toDo_js_03] What is preventDefault()?
+  //[question_toDo_js_03] What is event.preventDefault()?
   const value = input.value;
   input.value = "";
   addToDo(value);
