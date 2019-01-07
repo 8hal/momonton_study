@@ -11,6 +11,7 @@ function paintName(name) {
 function handleSubmit(event) {
   event.preventDefault();
   const form = event.target;
+  //[question greeting_js_01] what is event.target?
   const input = form.querySelector("input");
   const value = input.value;
   localStorage.setItem("username", value);
